@@ -1,0 +1,8 @@
+vhdl isim_temp "Pipeline.vhd"
+vhdl isim_temp "Memoire_instruct.vhd"
+vhdl isim_temp "MEMOIRE.vhd"
+vhdl isim_temp "LC.vhd"
+vhdl isim_temp "BANC.vhd"
+vhdl isim_temp "ALU.vhd"
+vhdl isim_temp "Processeur.vhd"
+vhdl isim_temp "Test_Processeur.vhd"
