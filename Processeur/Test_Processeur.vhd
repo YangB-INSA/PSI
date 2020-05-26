@@ -81,7 +81,7 @@ BEGIN
       -- hold reset state for 100 ns.
 		IP <= X"00"; --AFC 00 02
 		wait for 100ns;
-		IP <= X"01"; --COP 01 00
+		IP <= X"01"; --AFC 01 0F
 		wait for 100ns;
 		IP <= X"02"; --ADD 02 01 00
 		wait for 100ns;
@@ -92,6 +92,8 @@ BEGIN
 		IP <= X"05"; --STORE 00 FF 00
 		wait for 100ns;
 		IP <= X"06"; --LOAD FF 08 00
+		wait for 100ns;
+		IP <= X"07"; --COP 06 05 00
 
       -- insert stimulus here 
 

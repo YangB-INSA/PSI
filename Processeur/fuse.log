@@ -32,8 +32,8 @@ Compiling architecture behavioral of entity LC_MEM_RE [lc_mem_re_default]
 Compiling architecture behavioral of entity Processeur [processeur_default]
 Compiling architecture behavior of entity test_processeur
 Time Resolution for simulation is 1ps.
-Waiting for 8 sub-compilation(s) to finish...
+Waiting for 7 sub-compilation(s) to finish...
 Compiled 25 VHDL Units
 Built simulation executable D:/Projet INSA/Processeur/Test_Processeur_isim_beh.exe
-Fuse Memory Usage: 48048 KB
-Fuse CPU Usage: 780 ms
+Fuse Memory Usage: 48728 KB
+Fuse CPU Usage: 858 ms

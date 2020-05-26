@@ -33,7 +33,8 @@ at 0 ps, Instance /test_processeur/uut/bench/ : Warning: NUMERIC_STD.TO_INTEGER:
 at 0 ps, Instance /test_processeur/uut/bench/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 Finished circuit initialization process.
 # restart
-# run 800ns
+# restart
+# run 900ns
 Simulator is doing circuit initialization process.
 at 0 ps, Instance /test_processeur/uut/bench/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /test_processeur/uut/bench/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0

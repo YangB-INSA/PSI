@@ -40,12 +40,13 @@ type instruction_array is array (255 downto 0) of STD_LOGIC_VECTOR(31 downto 0);
 -- instancier les premieres instructions pour les tests
 signal instruction : instruction_array := 
 	(0 => x"00020600", --AFC
-	 1 => x"00000501", --COP
+	 1 => x"000F0601", --AFC
 	 2 => x"01000102", --ADD
 	 3 => x"00010203", --SUB
 	 4 => x"00010304", --MUL
 	 5 => x"00000705", --LOAD
 	 6 => x"000808FF", --STORE
+	 7 => x"00050506", --COP
 	 others => X"00000000");
 
 begin
